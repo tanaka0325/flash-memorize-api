@@ -26,3 +26,36 @@ books = Book.create([
     status: 1,
   }
 ])
+
+cards = Card.create([
+  {
+    book_id: 1,
+    question: 'AAAAとは？',
+    answer: 'AAAAです',
+    status: 1,
+  },
+  {
+    book_id: 3,
+    question: 'BBBBとは？',
+    answer: 'BBBBです',
+    status: 1,
+  },
+  {
+    book_id: 2,
+    question: 'CCCCとは？',
+    answer: 'CCCCです',
+    status: 1,
+  },
+  {
+    book_id: 2,
+    question: 'DDDDとは？',
+    answer: 'DDDDです',
+    status: 1,
+  },
+  {
+    book_id: 1,
+    question: 'EEEEとは？',
+    answer: 'EEEE',
+    status: 1,
+  },
+])
